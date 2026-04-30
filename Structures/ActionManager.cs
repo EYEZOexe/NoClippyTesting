@@ -13,9 +13,9 @@ namespace NoClippy.Structures
         [FieldOffset(0x68)] public bool isQueued;
         [FieldOffset(0x120)] public ushort currentSequence;
         //[FieldOffset(0x122)] public ushort unknownSequence; // ???
-        [FieldOffset(0x5F8)] public bool isGCDRecastActive;
-        [FieldOffset(0x5FC)] public uint currentGCDAction;
-        [FieldOffset(0x600)] public float elapsedGCDRecastTime;
-        [FieldOffset(0x604)] public float gcdRecastTime;
+        [FieldOffset(0x5FC)] public bool isGCDRecastActive;
+        [FieldOffset(0x600)] public uint currentGCDAction;
+        [FieldOffset(0x604)] public float elapsedGCDRecastTime;
+        [FieldOffset(0x608)] public float gcdRecastTime;
     }
 }
